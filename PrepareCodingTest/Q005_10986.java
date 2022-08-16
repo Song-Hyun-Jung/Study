@@ -1,5 +1,6 @@
 import java.util.*;
 import java.io.*;
+//부분합
 public class Q005_10986 {
 
 	public static void main(String[] args) throws IOException {
