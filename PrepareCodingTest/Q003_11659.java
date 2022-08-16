@@ -1,4 +1,5 @@
 import java.util.*;
+//부분합
 public class Q003_11659 {
 
 	public static void main(String[] args) {
