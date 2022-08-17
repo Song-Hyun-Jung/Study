@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-public class Q10_11003 {
+public class Q010_11003 {
 	//슬라이딩 윈도우
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
