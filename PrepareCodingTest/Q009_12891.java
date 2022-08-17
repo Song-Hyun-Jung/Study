@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-//슬라이딩 윈도우
+//슬라이딩 윈도우*** 
 public class Q009_12891 {
 	static int[] checkCounts; //비밀번호 체크 배열
 	static int[] currentCounts; //현재 상태 배열
