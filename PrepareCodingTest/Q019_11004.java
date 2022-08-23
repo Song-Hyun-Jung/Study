@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
-//퀵소트
+//퀵소트-다시 시도 필요
 public class Q019_11004 {
 
 	public static void main(String[] args) throws Exception{
