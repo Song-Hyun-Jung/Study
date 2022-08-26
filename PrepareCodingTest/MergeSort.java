@@ -35,7 +35,7 @@ public class MergeSort {
 		int i = p;
 		int j = q + 1;
 		
-		int k = 0;
+		int k = p;
 		while(i <= q && j <= r) {
 			if(A[i] <= A[j]) {
 				merged[k++] = A[i];
@@ -55,7 +55,7 @@ public class MergeSort {
 		}
 		
 		i = p;
-		k = 0;
+		k = p;
 		while(i <= r) {
 			A[i++] = merged[k++]; //merged의 원소들을 원래 배열인 A에 반영해줌
 		}
