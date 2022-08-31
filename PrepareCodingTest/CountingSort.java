@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 //counting 배열의 의미는 같은 숫자가 몇개 있는지 -> counting배열을 구간합 하고 counting 구간합 배열의 각 값은 해당 인덱스에 해당하는 숫자의 시작위치-1을 알려준다. 
 //ex) array[7, 2, 3, 5, 7, 1, 4, 6, 7, 5, 0, 1]
 //counting구간합[1, 3, 4, 5, 6, 8, 9, 12]
-//1의 시작위치 = 구간합에서 인덱스1의 값 - 1 = 3 - 1 = 2 -> result에서 인덱스 2에 1이 위치한다. 다시말해, 정렬결과 배열에 1의 위치는 인덱스2
+//1의 시작위치 = 구간합에서 인덱스1의 값 - 1 = 3 - 1 = 2 -> result에서 인덱스 2까지 1이 위치한다.
 public class CountingSort {
 
 	public static void main(String[] args) throws Exception{
