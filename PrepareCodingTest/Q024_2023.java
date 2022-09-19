@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.*;
+//DFS-재귀
 public class Q024_2023 {
 	static int N;
 	public static void main(String[] args) throws Exception{
