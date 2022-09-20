@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-//BFS(배열)
+//BFS(배열 bfs 탐색을 큐를 이용해서)
 public class Q027_2178 {
 	static int[][] array;
 	static boolean[][] visited;
