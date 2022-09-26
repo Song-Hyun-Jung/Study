@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 //이진탐색-데이터가 정렬되어있는 상태에서 원하는 값을 찾아냄. 중앙값과 찾는 값을 비교. O(logn)
+//여기서는 n개의 데이터를 찾음. O(nlogn)
 public class Q029_1920 {
 	public static int[] arr;
 	public static int[] findList;
