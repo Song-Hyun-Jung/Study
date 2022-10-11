@@ -28,7 +28,7 @@ public class Q033_1715 {
 		}
 	
 		long sum = 0;
-		while(pq.size() != 1) {
+		while(pq.size() > 1) {
 			long tmp1 = pq.poll();
 			long tmp2 = pq.poll();
 			sum += tmp1 + tmp2;
