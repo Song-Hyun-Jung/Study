@@ -39,7 +39,7 @@ public class Q039_1747 {
 		String num = String.valueOf(n);
 		int endIdx = num.length() - 1;
 		int startIdx = 0;
-		while(startIdx < endIdx) {
+		while(startIdx < endIdx) { 
 			if(num.charAt(startIdx) != num.charAt(endIdx)) { //처음과 끝인덱스 문자 하나씩 비교
 				return false;
 			}
