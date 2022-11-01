@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//확장 유클리드 호제법->방정식의 해를 구한다. 구현은 재귀로 <-> 유클리드 호제법(최대공약수와 최소공배수 구할때 사용)
+//확장 유클리드 호제법->방정식의 해를 구한다. 구현은 재귀로 <-> 유클리드 호제법(최대공약수와 최소공배수 구할때 사용)*
 //ax + by = c	이때 c는 a와 b의 최대공약수의 배수이다. 
 //1. a와 b의 최대공약수를 구한다. gcd(a, b) = n이라 하면
 //2. ax + by = n으로 변경한다.
