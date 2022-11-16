@@ -26,7 +26,7 @@ public class Q046_18352 {
 		distance = new int[N + 1];
 		bfsQueue = new LinkedList<Integer>();
 		
-		//인접리스트 초기화
+		//인접리스트 초기화, visited 초기화
 		graph = new List[N + 1];
 		for(int i = 1; i <= N; i++) {
 			graph[i] = new ArrayList<Integer>();
