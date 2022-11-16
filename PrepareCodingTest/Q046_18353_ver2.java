@@ -26,11 +26,11 @@ public class Q046_18353_ver2 {
 		
 		bfsQueue = new LinkedList<Integer>();
 		
-		//인접리스트 초기화
+		//인접리스트 초기화, visited 초기화
 		graph = new List[N + 1];
 		for(int i = 1; i <= N; i++) {
 			graph[i] = new ArrayList<Integer>();
-			visited[i] = -1;
+			visited[i] = -1; //방문하지 않았으면 -1
 		}
 		
 		//값 받기
