@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-//graph + bfs(거리)
+//BFS + Graph(Q46_18352와 유사)
 public class Q047_1325 {
 	public static int[] answer; //거리 누적 정보(신뢰도)
 	public static boolean[] visited; //방문 여부
