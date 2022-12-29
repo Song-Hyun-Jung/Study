@@ -62,8 +62,6 @@ public class Q055_1948 {
 			entryArray[destination]++; //목적지 도시의 진입차수 증가
 		}
 		
-		
-		
 		//출발지, 목적지
 		st = new StringTokenizer(br.readLine());
 		int startLoc = Integer.parseInt(st.nextToken());
