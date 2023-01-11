@@ -3,7 +3,7 @@ import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//DFS
+// DFS 2차원 배열 depth
 public class BaekJoon1987 {
 	static boolean[][] visited; //방문 여부 저장
 	static boolean[] gift; //기념품 구매 여부 저장
