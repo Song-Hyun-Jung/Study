@@ -7,11 +7,18 @@
 -exec로 sms 전송함
 -배치 프로그램에서는 프로시저를 많이 사용함. 대용량 데이터라 네트워크로 처리하기 버거울때가 있기 때문
 
-<SMS dbo.s_c_i_insertSMS_prodweb>
-exec [Insert_LMS] '01097377946' , '031-490-7443', '테스트입니다아~~~~~' , '', '', 'CKR' , '4' 
+<SMS dbo.s_c_i_insertSMS_prodweb>-insert되면 바로 sms 전송하는 방식
+exec [Insert_LMS] '수신번호' , '발신번호', '테스트입니다아~~~~~' , '', '', 'CKR' , '4' 
 
 (4:sms, 6:mms)
 exec는 프로시저를 호출하는것
+
+==> MyBatis에서
+<mapper namespace="com.ckbs.web.dao.smsserver.SmsServerDao">
+	<select id="sendSms" statementType="CALLABLE">
+		EXEC [Insert_LMS] '수신번호' , '발신번호', '테스트입니다아~~~~~' , '', '', 'CKR' , '4' 
+	</select>
+</mapper>
 
 cf) 트리거: 테이블에 insert, update, delete가 발생하면 어떤 작업을 시행하라. 
 동시에 바로 작업할 수 있도록 하는 것. 요즘은 트리거보다는 API 호출시 메시지 시스템이 전체에게 뿌리면 구독하는 서비스가 캐치해서 날림.
